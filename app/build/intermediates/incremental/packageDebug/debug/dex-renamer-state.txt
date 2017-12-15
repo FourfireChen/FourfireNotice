@@ -1,0 +1,4 @@
+#Fri Dec 15 08:42:45 CST 2017
+base.0=C\:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
