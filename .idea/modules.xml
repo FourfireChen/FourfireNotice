@@ -3,11 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FourfireNotice.iml" filepath="$PROJECT_DIR$/FourfireNotice.iml" />
-<<<<<<< HEAD
-=======
-      <module fileurl="file://C:\Users\lenovo\Desktop\todolist-a7c28a8475593a2ca26ef984a7d7f439fd1d3c20\FourfireNotice\FourfireNotice.iml" filepath="C:\Users\lenovo\Desktop\todolist-a7c28a8475593a2ca26ef984a7d7f439fd1d3c20\FourfireNotice\FourfireNotice.iml" />
->>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
