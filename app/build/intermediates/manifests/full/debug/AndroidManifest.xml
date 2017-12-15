@@ -18,14 +18,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_bookmark_black_48dp"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.lenovo.fourfirenotice.view.activity.MainActivity" >
-=======
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.example.lenovo.fourfirenotice.activity.MainActivity" >
->>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,17 +28,10 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name="com.example.lenovo.fourfirenotice.view.activity.EditActivity"
             android:theme="@style/EditActivity" />
 
         <receiver android:name="com.example.lenovo.fourfirenotice.sr.AlarmReceiver" />
-=======
-            android:name="com.example.lenovo.fourfirenotice.activity.EditActivity"
-            android:theme="@style/EditActivity" />
-
-        <receiver android:name="com.example.lenovo.fourfirenotice.tools.AlarmReceiver" />
->>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
 
         <meta-data
             android:name="android.support.VERSION"

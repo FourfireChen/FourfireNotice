@@ -89,10 +89,10 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lenovo\.gradle\cache
 		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:14:9-40
 	android:name
 		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:8:9-54
-activity#com.example.lenovo.fourfirenotice.activity.MainActivity
+activity#com.example.lenovo.fourfirenotice.view.activity.MainActivity
 ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:15:19-56
+		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:15:19-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
@@ -103,16 +103,16 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:19:27-74
-activity#com.example.lenovo.fourfirenotice.activity.EditActivity
+activity#com.example.lenovo.fourfirenotice.view.activity.EditActivity
 ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:22:9-24:60
 	android:theme
 		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:24:13-48
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:23:13-50
-receiver#com.example.lenovo.fourfirenotice.tools.AlarmReceiver
-ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:26:9-57
+		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:23:13-55
+receiver#com.example.lenovo.fourfirenotice.sr.AlarmReceiver
+ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:26:9-54
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:26:19-54
+		ADDED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml:26:19-51
 uses-sdk
 INJECTED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\AndroidManifest.xml

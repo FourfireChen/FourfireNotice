@@ -1,11 +1,22 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "C:\\Users\\lenovo\\Desktop\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
-=======
+            "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f134a5724b4090dee9d522399c53809f\\res\\values-v13\\values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
->>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f134a5724b4090dee9d522399c53809f\\res\\values-v13\\values-v13.xml",
