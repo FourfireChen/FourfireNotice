@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    tools:context="com.example.lenovo.fourfirenotice.view.activity.EditActivity">
+=======
     tools:context="com.example.lenovo.fourfirenotice.activity.EditActivity">
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
     <EditText
         android:layout_weight="1"
         android:gravity="top|left"

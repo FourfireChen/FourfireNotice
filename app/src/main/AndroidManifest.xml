@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_bookmark_black_48dp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".view.activity.MainActivity">
+=======
         <activity android:name=".activity.MainActivity">
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,10 +24,17 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
+            android:name=".view.activity.EditActivity"
+            android:theme="@style/EditActivity"></activity>
+
+        <receiver android:name=".sr.AlarmReceiver" />
+=======
             android:name=".activity.EditActivity"
             android:theme="@style/EditActivity"></activity>
 
         <receiver android:name=".tools.AlarmReceiver" />
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
 
     </application>
 

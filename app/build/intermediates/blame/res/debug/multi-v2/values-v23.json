@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+=======
             "outputFile": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\fcd7d5da229ce0a442d4a7cbe75249de\\res\\values-v23\\values-v23.xml",

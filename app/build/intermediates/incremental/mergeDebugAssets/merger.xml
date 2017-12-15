@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="C:\Users\lenovo\Desktop\FourfireNotice\app\src\main\assets"><file name="litepal.xml" path="C:\Users\lenovo\Desktop\FourfireNotice\app\src\main\assets\litepal.xml"/></source><source path="C:\Users\lenovo\Desktop\FourfireNotice\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\lenovo\Desktop\FourfireNotice\app\src\debug\assets"/></dataSet></merger>
+=======
 <merger version="3"><dataSet config="main"><source path="C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\assets"><file name="litepal.xml" path="C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\main\assets\litepal.xml"/></source><source path="C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\lenovo\Desktop\todolist\FourfireNotice\app\src\debug\assets"/></dataSet></merger>
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d

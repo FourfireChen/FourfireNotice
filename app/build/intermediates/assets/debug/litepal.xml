@@ -4,9 +4,16 @@
     <version value="5"/>
 
     <list>
+<<<<<<< HEAD
+        <mapping class="com.example.lenovo.fourfirenotice.model.db.Notice"/>
+        <mapping class="com.example.lenovo.fourfirenotice.model.db.City"/>
+        <mapping class="com.example.lenovo.fourfirenotice.model.db.County"/>
+        <mapping class="com.example.lenovo.fourfirenotice.model.db.Province"/>
+=======
         <mapping class="com.example.lenovo.fourfirenotice.db.Notice"/>
         <mapping class="com.example.lenovo.fourfirenotice.db.City"/>
         <mapping class="com.example.lenovo.fourfirenotice.db.County"/>
         <mapping class="com.example.lenovo.fourfirenotice.db.Province"/>
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
     </list>
 </litepal>

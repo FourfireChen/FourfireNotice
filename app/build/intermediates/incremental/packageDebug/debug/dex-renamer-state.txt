@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+#Wed Dec 13 13:56:44 CST 2017
+base.0=C\:\\Users\\lenovo\\Desktop\\FourfireNotice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\lenovo\\Desktop\\FourfireNotice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+=======
 #Fri Dec 15 08:42:45 CST 2017
 base.0=C\:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
 file.0=C\:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d

@@ -3566,6 +3566,10 @@ public final class R {
     public static final int notify_panel_notification_icon_bg=0x7f070076;
     public static final int tooltip_frame_dark=0x7f070077;
     public static final int tooltip_frame_light=0x7f070078;
+<<<<<<< HEAD
+    public static final int weather=0x7f070079;
+=======
+>>>>>>> 6c4de89e87d89291c71a7e467e997a522320f46d
   }
   public static final class id {
     public static final int ALT=0x7f080000;
