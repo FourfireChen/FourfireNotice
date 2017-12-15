@@ -33,19 +33,8 @@ public class Presenter implements InterPresenter
 {
     private InterModel MyModel;
     private InterView MyView;
-    private static List<Province> provinceList;
-    private static List<City> cityList;
-    private static List<County> countyList;
-    private static Province selectProvince;
-    private static City selectCity;
-    public static final int LEVEL_PROVINCE = 1;
-    public static final int LEVEL_CITY = 2;
-    public static final int LEVEL_COUNTY = 3;
     private SharedPreferences prefs;
     private String lastWeatherId;
-    private List<String> provinceNames = new ArrayList<>();
-    private List<String> cityNames = new ArrayList<>();
-    private List<String> countyNames = new ArrayList<>();
     private List<Notice> noticesList = new ArrayList<>();
     private static InterPresenter presenter;
 
@@ -69,123 +58,6 @@ public class Presenter implements InterPresenter
 
     }
 
-    /**
-     * 以下一部分是对地区的处理
-     * 包括：
-     * 从数据库中读取省份信息
-     * 若不存在，则从网络上读取省份信息
-     * 为省份，城市，街区三个listview设置监听器
-     * 从网络扒取相应地区信息并显示
-     */
-    //查询省份信息，并请求InterView显示在Listview上
-    public void queryProvinces()
-    {
-        provinceList = DataSupport.findAll(Province.class);
-        if(provinceList.size() > 0)
-        {
-            provinceNames.clear();
-            for(Province province : provinceList)
-            {
-                provinceNames.add(province.getProvinceName());
-            }
-            MyView.notifyProvinceChange();
-        }
-        else
-        {
-            String address = "http://guolin.tech/api/china";
-            queryFromInternet(address,LEVEL_PROVINCE);
-        }
-    }
-    //同上
-    public void queryCities()
-    {
-        cityList = DataSupport.where("provinceid = ?",String.valueOf(selectProvince.getId())).find(City.class);
-        if(cityList.size() > 0)
-        {
-            cityNames.clear();
-            for(City city : cityList)
-            {
-                cityNames.add(city.getCityName());
-            }
-            MyView.notifyCityChange();
-
-        }
-        else
-        {
-            int provinceCode = selectProvince.getProvinceCode();
-            String address = "http://guolin.tech/api/china/" + provinceCode;
-            queryFromInternet(address,LEVEL_CITY);
-        }
-    }
-    //同上
-    public void queryCouty()
-    {
-        countyList = DataSupport.where("cityid = ?",String.valueOf(selectCity.getId())).find(County.class);
-        if(countyList.size() > 0)
-        {
-            countyNames.clear();
-            for(County county : countyList)
-            {
-                countyNames.add(county.getCountyName());
-            }
-            MyView.notifyCountyChange();
-        }
-        else
-        {
-            int provinceCode = selectProvince.getProvinceCode();
-            int cityCode = selectCity.getCityCode();
-            String address = "http://guolin.tech/api/china/" + provinceCode + "/" + cityCode;
-            queryFromInternet(address,LEVEL_COUNTY);
-        }
-    }
-    //发送地区搜索请求到InterModel,从网络扒取信息并根据返回结果发送请求到Interview实现交互
-    public void queryFromInternet(String address, final int level)
-    {
-        MyView.ViewShowProgressDialog();
-        MyModel.sendOkHttpRequest(address, new Callback()
-        {
-            @Override
-            public void onFailure(Call call, IOException e)
-            {
-                MyView.ViewCloseProgressDialog();
-                MyView.failGetToast();
-            }
-            @Override
-            public void onResponse(Call call, Response response) throws IOException
-            {
-                String responseText = response.body().string();
-                boolean result = false;
-                if(level == LEVEL_PROVINCE)
-                {
-                    result = MyModel.handleProvinceResponse(responseText);
-                }
-                else if(level == LEVEL_CITY)
-                {
-                    result = MyModel.handleCityResponse(responseText,selectProvince.getId());
-                }
-                else if(level == LEVEL_COUNTY)
-                {
-                    result = MyModel.handleCountyResponse(responseText,selectCity.getId());
-                }
-                if(result)
-                {
-                    MyView.ViewCloseProgressDialog();
-                    if(level == LEVEL_PROVINCE)
-                    {
-                        queryProvinces();
-                    }
-                    else if(level == LEVEL_CITY)
-                    {
-                        queryCities();
-                    }
-                    else if(level == LEVEL_COUNTY)
-                    {
-                        queryCouty();
-                    }
-                }
-            }
-        });
-    }
     //为view层的listview设置监听器，并初始化省份的显示
     public void iniQuery()
     {
@@ -194,8 +66,8 @@ public class Presenter implements InterPresenter
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
-                selectProvince = provinceList.get(position);
-                queryCities();
+                MyModel.setSelectProvince(position);
+                MyModel.queryCities();
             }
         });
         MyView.getCityListview().setOnItemClickListener(new AdapterView.OnItemClickListener()
@@ -203,8 +75,8 @@ public class Presenter implements InterPresenter
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
-                selectCity = cityList.get(position);
-                queryCouty();
+                MyModel.setSelectCity(position);
+                MyModel.queryCouty();
             }
         });
         MyView.getCountyListview().setOnItemClickListener(new AdapterView.OnItemClickListener()
@@ -212,13 +84,11 @@ public class Presenter implements InterPresenter
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
-
-                requestWeather(countyList.get(position).getWeather());
+                requestWeather(MyModel.getCountyList().get(position).getWeather());
             }
         });
-        queryProvinces();
+        MyModel.queryProvinces();
     }
-
     /**
      * 以下是对天气信息的处理：
      * 包括：
@@ -326,16 +196,36 @@ public class Presenter implements InterPresenter
     @Override
     public List<String> getProvinceNames()
     {
-        return provinceNames;
+        return MyModel.getProvinceNames();
     }
     @Override
     public List<String> getCityNames()
     {
-        return cityNames;
+        return MyModel.getCityNames();
     }
     @Override
     public List<String> getCountyNames()
     {
-        return countyNames;
+        return MyModel.getCountyNames();
+    }
+
+
+
+    @Override
+    public void showProgressDia()
+    {
+        MyView.ViewShowProgressDialog();
+    }
+
+    @Override
+    public void closeProgressDia()
+    {
+        MyView.ViewCloseProgressDialog();
+    }
+
+    @Override
+    public void showFailToast()
+    {
+        MyView.failGetToast();
     }
 }

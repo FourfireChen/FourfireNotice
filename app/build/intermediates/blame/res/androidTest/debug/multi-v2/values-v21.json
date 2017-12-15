@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\72739374cc7c5d84daa91f438304186c\\res\\values-v21\\values-v21.xml",
@@ -82,7 +82,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\todolist2\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\72739374cc7c5d84daa91f438304186c\\res\\values-v21\\values-v21.xml",

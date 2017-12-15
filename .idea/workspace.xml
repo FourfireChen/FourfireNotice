@@ -39,7 +39,6 @@
             <state relative-caret-position="851">
               <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#onClick#0;class#EditActivity#0" expanded="false" />
                 <element signature="method#onPause#0;class#EditActivity#0" expanded="false" />
                 <element signature="method#iniNotice#0;class#EditActivity#0" expanded="false" />
@@ -79,8 +78,8 @@
       <file leaf-file-name="InterPresenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/InterPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state relative-caret-position="299">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,18 +87,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Presenter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Presenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/Presenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+            <state relative-caret-position="897">
+              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Presenter#0;class#Presenter#0" expanded="false" />
                 <element signature="method#getPresenter#0;class#Presenter#0" expanded="false" />
-                <element signature="method#queryCities#0;class#Presenter#0" expanded="false" />
-                <element signature="method#queryCouty#0;class#Presenter#0" expanded="false" />
-                <element signature="method#queryFromInternet#0;class#Presenter#0" expanded="false" />
+                <element signature="method#iniQuery#0;class#Presenter#0" expanded="false" />
                 <element signature="method#requestWeather#0;class#Presenter#0" expanded="false" />
                 <element signature="method#iniWeather#0;class#Presenter#0" expanded="false" />
                 <element signature="method#iniNotice#0;class#Presenter#0" expanded="false" />
@@ -110,17 +107,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="484">
+              <caret line="224" column="21" lean-forward="true" selection-start-line="224" selection-start-column="21" selection-end-line="224" selection-end-column="21" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#handleProvinceResponse#0;class#Model#0" expanded="false" />
                 <element signature="method#handleCityResponse#0;class#Model#0" expanded="false" />
                 <element signature="method#handleCountyResponse#0;class#Model#0" expanded="false" />
                 <element signature="method#handleWeatherResponse#0;class#Model#0" expanded="false" />
                 <element signature="method#sendOkHttpRequest#0;class#Model#0" expanded="false" />
+                <element signature="method#queryProvinces#0;class#Model#0" expanded="false" />
+                <element signature="method#queryCities#0;class#Model#0" expanded="false" />
+                <element signature="method#queryCouty#0;class#Model#0" expanded="false" />
+                <element signature="method#setSelectProvince#0;class#Model#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -131,7 +133,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
               <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#324#325#0" expanded="false" />
+                <element signature="e#363#364#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +158,7 @@
             <state relative-caret-position="230">
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#onReceive#0;class#AlarmReceiver#0" expanded="false" />
               </folding>
             </state>
@@ -161,9 +168,11 @@
       <file leaf-file-name="InterModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/InterModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-              <folding />
+            <state relative-caret-position="506">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1952,11 +1961,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/activity/EditActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/InterView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/InterPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/sr/AlarmReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/Presenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/InterPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/InterModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/Model.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/Presenter.java" />
       </list>
     </option>
   </component>
@@ -1981,8 +1990,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FourfireNotice" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FourfireNotice" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FourfireNotice" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FourfireNotice" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2049,117 +2108,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fourfirenotice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FourfireNotice" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2264,7 +2217,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513334111241" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513334958715" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2310,7 +2263,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513334111241" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513334958715" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2342,6 +2295,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2470,7 +2444,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513334111244" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513334958716" />
       </method>
     </configuration>
     <list size="1">
@@ -2518,7 +2492,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1040" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1040" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2559,7 +2533,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="104" />
+      <option name="time" value="107" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2627,6 +2601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2735,6 +2710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="140" column="54" lean-forward="false" selection-start-line="140" selection-start-column="54" selection-end-line="140" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2745,7 +2721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2771,6 +2746,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="74" column="69" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2778,23 +2754,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/InterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/activity/EditActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/sr/AlarmReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+        <state relative-caret-position="230">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onClick#0;class#EditActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#EditActivity#0" expanded="false" />
-            <element signature="method#iniNotice#0;class#EditActivity#0" expanded="false" />
-            <element signature="method#setTime#0;class#EditActivity#0" expanded="false" />
-            <element signature="method#delete#0;class#EditActivity#0" expanded="false" />
-            <element signature="method#onCheckedChanged#0;class#EditActivity#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#onReceive#0;class#AlarmReceiver#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/TimeComparetor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2821,58 +2812,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/InterView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/view/activity/EditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/sr/AlarmReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="851">
+          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
           <folding>
-            <element signature="method#onReceive#0;class#AlarmReceiver#0" expanded="false" />
+            <element signature="method#onClick#0;class#EditActivity#0" expanded="false" />
+            <element signature="method#onPause#0;class#EditActivity#0" expanded="false" />
+            <element signature="method#iniNotice#0;class#EditActivity#0" expanded="false" />
+            <element signature="method#setTime#0;class#EditActivity#0" expanded="false" />
+            <element signature="method#delete#0;class#EditActivity#0" expanded="false" />
+            <element signature="method#onCheckedChanged#0;class#EditActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/InterModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/TimeComparetor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="506">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <element signature="method#handleProvinceResponse#0;class#Model#0" expanded="false" />
-            <element signature="method#handleCityResponse#0;class#Model#0" expanded="false" />
-            <element signature="method#handleCountyResponse#0;class#Model#0" expanded="false" />
-            <element signature="method#handleWeatherResponse#0;class#Model#0" expanded="false" />
-            <element signature="method#sendOkHttpRequest#0;class#Model#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/InterPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="299">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2881,20 +2849,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/presenter/Presenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        <state relative-caret-position="897">
+          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Presenter#0;class#Presenter#0" expanded="false" />
             <element signature="method#getPresenter#0;class#Presenter#0" expanded="false" />
-            <element signature="method#queryCities#0;class#Presenter#0" expanded="false" />
-            <element signature="method#queryCouty#0;class#Presenter#0" expanded="false" />
-            <element signature="method#queryFromInternet#0;class#Presenter#0" expanded="false" />
+            <element signature="method#iniQuery#0;class#Presenter#0" expanded="false" />
             <element signature="method#requestWeather#0;class#Presenter#0" expanded="false" />
             <element signature="method#iniWeather#0;class#Presenter#0" expanded="false" />
             <element signature="method#iniNotice#0;class#Presenter#0" expanded="false" />
             <element signature="method#sort#0;class#Presenter#0" expanded="false" />
             <element signature="method#add#0;class#Presenter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lenovo/fourfirenotice/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="224" column="21" lean-forward="true" selection-start-line="224" selection-start-column="21" selection-end-line="224" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#handleProvinceResponse#0;class#Model#0" expanded="false" />
+            <element signature="method#handleCityResponse#0;class#Model#0" expanded="false" />
+            <element signature="method#handleCountyResponse#0;class#Model#0" expanded="false" />
+            <element signature="method#handleWeatherResponse#0;class#Model#0" expanded="false" />
+            <element signature="method#sendOkHttpRequest#0;class#Model#0" expanded="false" />
+            <element signature="method#queryProvinces#0;class#Model#0" expanded="false" />
+            <element signature="method#queryCities#0;class#Model#0" expanded="false" />
+            <element signature="method#queryCouty#0;class#Model#0" expanded="false" />
+            <element signature="method#setSelectProvince#0;class#Model#0" expanded="false" />
           </folding>
         </state>
       </provider>

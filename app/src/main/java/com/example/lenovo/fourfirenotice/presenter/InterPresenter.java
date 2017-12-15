@@ -23,4 +23,7 @@ public interface InterPresenter
     List<String> getProvinceNames();//方便在活动中设置adapter
     List<String> getCityNames();
     List<String> getCountyNames();
+    void showProgressDia();
+    void closeProgressDia();
+    void showFailToast();
 }

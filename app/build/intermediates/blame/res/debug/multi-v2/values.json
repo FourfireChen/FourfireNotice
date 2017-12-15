@@ -205,8 +205,25 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\todolist2\\FourfireNotice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\Desktop\\todolist2\\FourfireNotice\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,6,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "161,57,107,257,208",
+                        "endColumns": "45,48,52,41,47",
+                        "endOffsets": "202,101,155,294,251"
+                    },
+                    "to": {
+                        "startLines": "122,123,124,138,179",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "6483,6529,6578,7543,10219",
+                        "endColumns": "45,48,52,41,47",
+                        "endOffsets": "6524,6573,6626,7580,10262"
+                    }
+                },
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\22aedd66cb45521e1c8f6d6ab8f11193\\res\\values\\values.xml",
                     "from": {
@@ -224,23 +241,6 @@
                         "endLines": "156,157,622,623,624,625,626,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,703,704,712,713,721,722,725,742,784,2089,2093,2095,2101,2103,2287,2288",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "8656,8719,55374,55442,55514,55584,55645,59258,59319,59381,59445,59507,59568,59636,59736,59796,59862,59935,60004,60061,60113,60175,60700,60776,61156,61191,61557,61592,61719,62683,66255,152406,152607,152783,153167,153362,167000,167067"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "41",
-                        "endOffsets": "54"
-                    },
-                    "to": {
-                        "startLines": "774",
-                        "startColumns": "4",
-                        "startOffsets": "64926",
-                        "endColumns": "41",
-                        "endOffsets": "64963"
                     }
                 },
                 {
@@ -299,6 +299,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\lenovo\\Desktop\\todolist2\\FourfireNotice\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "774",
+                        "startColumns": "4",
+                        "startOffsets": "64926",
+                        "endColumns": "41",
+                        "endOffsets": "64963"
+                    }
+                },
+                {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\transition-26.1.0.aar\\16a3c3fb92dadc2e77c42ab4650c7885\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -332,23 +349,6 @@
                         "endLines": "2,6,9,10,13,16,17,20,23,24,25,26,30,31,32,33,38,39,40,43,46,47,50,53,56,59,60,63,66,67,72,73,77,78,79,80,81,82,83,84,85,86,87,93",
                         "endColumns": "51,69,11,67,11,11,66,11,11,66,64,64,11,65,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,64,64,61,61,61,58,59,60,60,58,11",
                         "endOffsets": "147,366,499,567,696,822,889,1012,1137,1204,1269,1334,1474,1540,1606,1673,1883,1952,2018,2143,2269,2336,2462,2589,2714,2841,2906,3032,3155,3220,3428,3495,3634,3699,3764,3826,3888,3950,4009,4069,4130,4191,4250,4459"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3,6,5",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "161,57,107,257,208",
-                        "endColumns": "45,48,52,41,47",
-                        "endOffsets": "202,101,155,294,251"
-                    },
-                    "to": {
-                        "startLines": "122,123,124,138,179",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "6483,6529,6578,7543,10219",
-                        "endColumns": "45,48,52,41,47",
-                        "endOffsets": "6524,6573,6626,7580,10262"
                     }
                 },
                 {
@@ -388,7 +388,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lenovo\\Desktop\\todolist\\FourfireNotice\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\lenovo\\Desktop\\todolist2\\FourfireNotice\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,10",
                         "startColumns": "4,4",
